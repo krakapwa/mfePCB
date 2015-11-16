@@ -956,49 +956,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </library>
 <library name="adafruit">
 <packages>
-<package name="1X03">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-<package name="1X03-CLEANBIG">
-<pad name="1" x="-2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" diameter="1.6764" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.81" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
 <package name="FIDUCIAL_1MM">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
 <polygon width="0.127" layer="29">
@@ -1016,50 +973,11 @@ In this library the device names are the same as the pin names of the symbols, t
 </package>
 </packages>
 <symbols>
-<symbol name="PINHD3">
-<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
-<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
 <symbol name="DOT">
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-1X3" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="A" symbol="PINHD3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="1X03">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="CB" package="1X03-CLEANBIG">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-<connect gate="A" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FIDUCIAL">
 <description>For use by pick and place machines to calibrate the vision/machine, 1mm
 &lt;p&gt;By microbuilder.eu&lt;/p&gt;</description>
@@ -1361,89 +1279,6 @@ LilyPad 1206- DIO-09955</description>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 <connect gate="A" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="OPA376">
-<packages>
-<package name="SOT23-5">
-<wire x1="1.4224" y1="0.4294" x2="1.4224" y2="-0.4294" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.4294" x2="-1.4224" y2="0.4294" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.8" x2="1.4" y2="0.8" width="0.1524" layer="51"/>
-<wire x1="-0.2684" y1="0.8104" x2="0.2684" y2="0.8104" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.8" x2="1.4" y2="-0.8" width="0.1524" layer="51"/>
-<wire x1="-1.4" y1="0.8" x2="-1.4" y2="-0.8" width="0.1524" layer="51"/>
-<smd name="1" x="-0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="2" x="0" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="3" x="0.95" y="-1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="4" x="0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<smd name="5" x="-0.95" y="1.3001" dx="0.55" dy="1.2" layer="1"/>
-<text x="-0.889" y="2.159" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-0.9525" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.2" y1="-1.5" x2="-0.7" y2="-0.85" layer="51"/>
-<rectangle x1="-0.25" y1="-1.5" x2="0.25" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="-1.5" x2="1.2" y2="-0.85" layer="51"/>
-<rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
-<rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="OPA376">
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="12.7" y1="2.54" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<pin name="OUT" x="15.24" y="2.54" length="short" rot="R180"/>
-<pin name="P_IN" x="-15.24" y="-7.62" length="short"/>
-<pin name="N_IN" x="-15.24" y="7.62" length="short"/>
-<pin name="V_P" x="2.54" y="-15.24" length="short" rot="R90"/>
-<pin name="V_N" x="2.54" y="15.24" length="short" rot="R270"/>
-<text x="-12.192" y="13.716" size="1.27" layer="95">&gt;NAME</text>
-<text x="-12.192" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="3.048" x2="-1.524" y2="2.032" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-2.54" x2="-2.032" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="-2.032" x2="-1.524" y2="-3.048" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="10.668" y2="0" width="0.254" layer="94"/>
-<wire x1="10.668" y1="0" x2="10.668" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.668" y1="2.54" x2="12.7" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="7.62" x2="-11.43" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="7.62" x2="-11.43" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-11.43" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-11.176" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-11.176" y1="-7.62" x2="-11.176" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-11.176" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="OPA376">
-<description>Low-Noise, Low Quiescent Current, Precision Operational Amplifier
-</description>
-<gates>
-<gate name="G$1" symbol="OPA376" x="0" y="0"/>
-</gates>
-<devices>
-<device name="DBV" package="SOT23-5">
-<connects>
-<connect gate="G$1" pin="N_IN" pad="4"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="P_IN" pad="3"/>
-<connect gate="G$1" pin="V_N" pad="2"/>
-<connect gate="G$1" pin="V_P" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11245,9 +11080,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="270"/>
 <part name="SUPPLY40" library="supply2" deviceset="AGND" device=""/>
 <part name="D2" library="SparkFun-LED" deviceset="LED-WHITE" device="" value="WHITE"/>
-<part name="C60" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
-<part name="SUPPLY46" library="supply2" deviceset="AGND" device=""/>
-<part name="JP6" library="adafruit" deviceset="PINHD-1X3" device="" value="SRB1-BIAS"/>
 <part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.99k"/>
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.99k"/>
 <part name="C62" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
@@ -11262,7 +11094,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C66" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="3.98K"/>
 <part name="JP16" library="headers" deviceset="PINHD-2X12" device="" value="Electrodes"/>
-<part name="IC7" library="OPA376" deviceset="OPA376" device="DBV"/>
 <part name="U$8" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$9" library="adafruit" deviceset="FIDUCIAL" device=""/>
 <part name="U$10" library="adafruit" deviceset="FIDUCIAL" device=""/>
@@ -11333,8 +11164,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
-<part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY14" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11516,12 +11345,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <segment>
 <wire x1="355.6" y1="193.04" x2="373.38" y2="193.04" width="0.1524" layer="91"/>
 <label x="360.426" y="193.294" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="BIAS_ELEC" class="0">
-<segment>
-<wire x1="304.8" y1="144.78" x2="304.8" y2="137.16" width="0.1524" layer="91"/>
-<label x="304.8" y="137.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -11806,7 +11629,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="BIASINV" class="0">
 <segment>
 <wire x1="309.88" y1="144.78" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
-<label x="307.34" y="121.92" size="1.778" layer="95"/>
+<label x="307.34" y="127" size="1.778" layer="95"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="124.46" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -12000,7 +11823,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="C66" gate="G$1" pin="1"/>
 <wire x1="284.48" y1="132.08" x2="307.34" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RLD_OUT"/>
-<wire x1="307.34" y1="132.08" x2="307.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="132.08" x2="307.34" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="RLD_IN"/>
+<wire x1="307.34" y1="142.24" x2="307.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="144.78" x2="302.26" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="142.24" x2="307.34" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5VIN" class="0">
@@ -12216,12 +12043,10 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <sheet>
 <plain>
 <text x="34.036" y="121.666" size="2.54" layer="91">Electrode Connector</text>
-<text x="293.116" y="179.324" size="2.54" layer="91">Bias</text>
 <text x="65.532" y="264.668" size="2.54" layer="91">Input Filtering</text>
 <text x="160.274" y="254.762" size="2.54" layer="91">(This side to ADS1298 inputs)</text>
 <text x="22.352" y="254.508" size="2.54" layer="91">(This side to electrode connector)</text>
 <text x="174.498" y="33.274" size="2.54" layer="91">Fiducials (for pick and place machines)</text>
-<text x="287.02" y="175.26" size="1.778" layer="91">Pins not labeled are not connected (NC)</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -12362,14 +12187,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="SUPPLY34" gate="G$1" x="121.92" y="19.05" smashed="yes" rot="R270">
 <attribute name="VALUE" x="112.649" y="18.415" size="1.778" layer="96"/>
 </instance>
-<instance part="C60" gate="G$1" x="304.8" y="193.04" smashed="yes" rot="MR270">
-<attribute name="NAME" x="305.689" y="188.468" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="307.467" y="195.58" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="SUPPLY46" gate="G$1" x="312.42" y="193.04" smashed="yes" rot="MR270">
-<attribute name="VALUE" x="315.468" y="193.04" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="JP6" gate="A" x="259.08" y="226.06" rot="MR0"/>
 <instance part="R24" gate="G$1" x="81.026" y="143.51" smashed="yes">
 <attribute name="NAME" x="79.502" y="145.2626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="79.502" y="140.208" size="1.778" layer="96"/>
@@ -12402,14 +12219,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="VALUE" x="118.364" y="265.938" size="1.778" layer="96"/>
 </instance>
 <instance part="JP16" gate="A" x="53.34" y="157.226"/>
-<instance part="IC7" gate="G$1" x="297.18" y="220.98" rot="MR0"/>
 <instance part="U$8" gate="G$1" x="208.28" y="45.72"/>
 <instance part="U$9" gate="G$1" x="218.44" y="45.72"/>
 <instance part="U$10" gate="G$1" x="198.12" y="45.72"/>
-<instance part="P+6" gate="1" x="337.82" y="187.96" rot="R180"/>
-<instance part="SUPPLY14" gate="G$1" x="294.64" y="246.38" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="294.005" y="249.047" size="1.778" layer="96" rot="MR90"/>
-</instance>
 </instances>
 <busses>
 </busses>
@@ -12520,11 +12332,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="JP16" gate="A" pin="5"/>
 </segment>
 <segment>
-<pinref part="SUPPLY46" gate="G$1" pin="AGND"/>
-<pinref part="C60" gate="G$1" pin="2"/>
-<wire x1="309.88" y1="193.04" x2="307.34" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SUPPLY47" gate="G$1" pin="AGND"/>
 <pinref part="C62" gate="G$1" pin="2"/>
 <wire x1="17.018" y1="128.27" x2="17.018" y2="129.286" width="0.1524" layer="91"/>
@@ -12533,11 +12340,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="57.15" y1="168.91" x2="71.12" y2="168.91" width="0.1524" layer="91"/>
 <label x="62.23" y="169.164" size="1.778" layer="95"/>
 <pinref part="JP16" gate="A" pin="4"/>
-</segment>
-<segment>
-<pinref part="IC7" gate="G$1" pin="V_N"/>
-<wire x1="294.64" y1="243.84" x2="294.64" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="SUPPLY14" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="IN1P" class="0">
@@ -12887,13 +12689,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <junction x="17.018" y="143.51"/>
 </segment>
 </net>
-<net name="SRB1" class="0">
-<segment>
-<pinref part="JP6" gate="A" pin="2"/>
-<wire x1="261.62" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
-<label x="248.92" y="226.06" size="1.27" layer="95"/>
-</segment>
-</net>
 <net name="REF_ELEC_CON" class="0">
 <segment>
 <wire x1="49.53" y1="143.51" x2="31.496" y2="143.51" width="0.1524" layer="91"/>
@@ -12907,12 +12702,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="86.106" y1="143.51" x2="99.822" y2="143.51" width="0.1524" layer="91"/>
 <label x="85.852" y="143.764" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP6" gate="A" pin="1"/>
-<wire x1="261.62" y1="228.6" x2="266.7" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="228.6" x2="266.7" y2="251.46" width="0.1524" layer="91"/>
-<label x="266.7" y="251.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BIAS_ELEC_CON" class="0">
@@ -12952,31 +12741,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="49.53" y1="168.91" x2="34.29" y2="168.91" width="0.1524" layer="91"/>
 <label x="34.544" y="169.164" size="1.778" layer="95"/>
 <pinref part="JP16" gate="A" pin="3"/>
-</segment>
-</net>
-<net name="+5V" class="0">
-<segment>
-<pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="337.82" y1="190.5" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="200.66" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="V_P"/>
-<wire x1="294.64" y1="205.74" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="200.66" x2="294.64" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C60" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="193.04" x2="299.72" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="IC7" gate="G$1" pin="N_IN"/>
-<wire x1="312.42" y1="228.6" x2="314.96" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="228.6" x2="314.96" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="238.76" x2="279.4" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="238.76" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="OUT"/>
-<wire x1="281.94" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="JP6" gate="A" pin="3"/>
-<wire x1="279.4" y1="223.52" x2="261.62" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
