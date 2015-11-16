@@ -11521,7 +11521,7 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="BIAS_ELEC" class="0">
 <segment>
 <wire x1="304.8" y1="144.78" x2="304.8" y2="137.16" width="0.1524" layer="91"/>
-<label x="303.53" y="129.032" size="1.778" layer="95" rot="R90"/>
+<label x="304.8" y="137.16" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="CLK" class="0">

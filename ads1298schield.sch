@@ -11230,9 +11230,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="NAME" x="277.368" y="125.349" size="1.778" layer="95"/>
 <attribute name="VALUE" x="275.336" y="119.253" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="297.18" y="124.46" smashed="yes">
-<attribute name="NAME" x="298.45" y="126.2126" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="293.37" y="121.158" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="294.64" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="292.8874" y="128.27" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="297.942" y="123.19" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V3" gate="G$1" x="378.46" y="228.6"/>
 <instance part="U$2" gate="G$1" x="317.5" y="187.96"/>
@@ -11628,17 +11628,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </net>
 <net name="BIASINV" class="0">
 <segment>
-<wire x1="309.88" y1="144.78" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="144.78" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
 <label x="307.34" y="127" size="1.778" layer="95"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="124.46" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="124.46" x2="284.48" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C66" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="124.46" x2="284.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="121.92" x2="309.88" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AIN1P" class="0">
@@ -11821,13 +11815,16 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="N$5" class="0">
 <segment>
 <pinref part="C66" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="132.08" x2="307.34" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="132.08" x2="294.64" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RLD_OUT"/>
+<wire x1="294.64" y1="132.08" x2="307.34" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="132.08" x2="307.34" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="RLD_IN"/>
 <wire x1="307.34" y1="142.24" x2="307.34" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="144.78" x2="302.26" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="142.24" x2="307.34" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<junction x="294.64" y="132.08"/>
 </segment>
 </net>
 <net name="5VIN" class="0">

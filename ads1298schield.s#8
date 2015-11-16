@@ -12849,12 +12849,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <label x="62.23" y="171.704" size="1.778" layer="95"/>
 <pinref part="JP16" gate="A" pin="2"/>
 </segment>
-<segment>
-<pinref part="C60" gate="G$1" pin="1"/>
-<wire x1="294.64" y1="205.74" x2="294.894" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="193.04" x2="294.894" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="IC7" gate="G$1" pin="V_P"/>
-</segment>
 </net>
 <net name="DVDD" class="0">
 <segment>
@@ -12980,6 +12974,11 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="190.5" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="200.66" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="IC7" gate="G$1" pin="V_P"/>
+<wire x1="294.64" y1="205.74" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="200.66" x2="294.64" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="C60" gate="G$1" pin="1"/>
+<wire x1="294.64" y1="193.04" x2="299.72" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">

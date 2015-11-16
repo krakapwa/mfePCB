@@ -11248,8 +11248,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <part name="C60" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="1uF"/>
 <part name="SUPPLY46" library="supply2" deviceset="AGND" device=""/>
 <part name="JP6" library="adafruit" deviceset="PINHD-1X3" device="" value="SRB1-BIAS"/>
-<part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="2M"/>
-<part name="R23" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="2M"/>
 <part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.99k"/>
 <part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="4.99k"/>
 <part name="C62" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7nF"/>
@@ -12372,14 +12370,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <attribute name="VALUE" x="315.468" y="193.04" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="JP6" gate="A" x="259.08" y="226.06" rot="MR0"/>
-<instance part="R22" gate="G$1" x="337.82" y="218.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="335.5594" y="219.202" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="343.408" y="218.948" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="R23" gate="G$1" x="337.82" y="205.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="335.5594" y="206.502" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="343.408" y="206.248" size="1.778" layer="96" rot="R180"/>
-</instance>
 <instance part="R24" gate="G$1" x="81.026" y="143.51" smashed="yes">
 <attribute name="NAME" x="79.502" y="145.2626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="79.502" y="140.208" size="1.778" layer="96"/>
@@ -12417,8 +12407,8 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <instance part="U$9" gate="G$1" x="218.44" y="45.72"/>
 <instance part="U$10" gate="G$1" x="198.12" y="45.72"/>
 <instance part="P+6" gate="1" x="337.82" y="187.96" rot="R180"/>
-<instance part="SUPPLY14" gate="G$1" x="337.82" y="248.92" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="337.185" y="251.587" size="1.778" layer="96" rot="MR90"/>
+<instance part="SUPPLY14" gate="G$1" x="294.64" y="251.46" smashed="yes" rot="MR180">
+<attribute name="VALUE" x="294.005" y="254.127" size="1.778" layer="96" rot="MR90"/>
 </instance>
 </instances>
 <busses>
@@ -12545,13 +12535,9 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <pinref part="JP16" gate="A" pin="4"/>
 </segment>
 <segment>
-<pinref part="SUPPLY14" gate="G$1" pin="AGND"/>
-<pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="246.38" x2="337.82" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="243.84" x2="337.82" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="243.84" x2="337.82" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="V_N"/>
-<wire x1="294.64" y1="243.84" x2="294.64" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="248.92" x2="294.64" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="IN1P" class="0">
@@ -12971,7 +12957,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <net name="+5V" class="0">
 <segment>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<pinref part="R23" gate="G$1" pin="1"/>
 <wire x1="337.82" y1="190.5" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="200.66" x2="337.82" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="V_P"/>
@@ -12992,15 +12977,6 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 <wire x1="281.94" y1="223.52" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="JP6" gate="A" pin="3"/>
 <wire x1="279.4" y1="223.52" x2="261.62" y2="223.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="IC7" gate="G$1" pin="P_IN"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="213.36" x2="337.82" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="213.36" x2="337.82" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
