@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -6254,7 +6254,7 @@
 <pin name="PA8" x="22.86" y="-20.32" length="middle" rot="R180"/>
 <pin name="PA15" x="22.86" y="-2.54" length="middle" rot="R180"/>
 <pin name="PB1" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="BOOT1/PB2" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="PB2" x="22.86" y="7.62" length="middle" rot="R180"/>
 <pin name="PB3" x="22.86" y="10.16" length="middle" rot="R180"/>
 <pin name="PB4" x="22.86" y="12.7" length="middle" rot="R180"/>
 <pin name="PB5" x="22.86" y="15.24" length="middle" rot="R180"/>
@@ -19390,7 +19390,6 @@
 <device name="" package="LQFP64">
 <connects>
 <connect gate="MCU" pin="BOOT0" pad="60"/>
-<connect gate="MCU" pin="BOOT1/PB2" pad="28"/>
 <connect gate="MCU" pin="NRST" pad="7"/>
 <connect gate="MCU" pin="OSC_IN" pad="5"/>
 <connect gate="MCU" pin="OSC_OUT" pad="6"/>
@@ -19417,6 +19416,7 @@
 <connect gate="MCU" pin="PB13" pad="34"/>
 <connect gate="MCU" pin="PB14" pad="35"/>
 <connect gate="MCU" pin="PB15" pad="36"/>
+<connect gate="MCU" pin="PB2" pad="28"/>
 <connect gate="MCU" pin="PB3" pad="55"/>
 <connect gate="MCU" pin="PB4" pad="56"/>
 <connect gate="MCU" pin="PB5" pad="57"/>
@@ -32113,7 +32113,6 @@
 <device name="" package="LQFP64">
 <connects>
 <connect gate="G$1" pin="BOOT0" pad="60"/>
-<connect gate="G$1" pin="BOOT1/PB2" pad="28"/>
 <connect gate="G$1" pin="NRST" pad="7"/>
 <connect gate="G$1" pin="OSC_IN" pad="5"/>
 <connect gate="G$1" pin="OSC_OUT" pad="6"/>
@@ -32140,6 +32139,7 @@
 <connect gate="G$1" pin="PB13" pad="34"/>
 <connect gate="G$1" pin="PB14" pad="35"/>
 <connect gate="G$1" pin="PB15" pad="36"/>
+<connect gate="G$1" pin="PB2" pad="28"/>
 <connect gate="G$1" pin="PB3" pad="55"/>
 <connect gate="G$1" pin="PB4" pad="56"/>
 <connect gate="G$1" pin="PB5" pad="57"/>
