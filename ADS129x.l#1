@@ -252,8 +252,8 @@
 <pin name="RLD_OUT" x="-10.16" y="-43.18" length="middle" direction="out" rot="R90"/>
 <pin name="RLD_REF" x="-12.7" y="-43.18" length="middle" direction="in" rot="R90"/>
 <pin name="RLD_IN" x="-15.24" y="-43.18" length="middle" direction="in" rot="R90"/>
-<pin name="PACE_OUT2" x="17.018" y="-43.688" length="middle" direction="out" rot="R90"/>
-<pin name="PACE_OUT1" x="19.558" y="-43.688" length="middle" direction="out" rot="R90"/>
+<pin name="PACE_OUT2" x="17.78" y="-43.18" length="middle" direction="out" rot="R90"/>
+<pin name="PACE_OUT1" x="20.32" y="-43.18" length="middle" direction="out" rot="R90"/>
 <pin name="VREFP" x="10.16" y="38.1" length="middle" rot="R270"/>
 <pin name="VREFN" x="15.24" y="38.1" length="middle" rot="R270"/>
 <pin name="WCT" x="-35.56" y="-17.78" length="middle" direction="out"/>

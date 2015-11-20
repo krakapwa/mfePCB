@@ -230,75 +230,75 @@
 </packages>
 <symbols>
 <symbol name="ADS1298">
-<wire x1="-33.782" y1="35.052" x2="32.258" y2="35.052" width="0.508" layer="94"/>
-<wire x1="-33.782" y1="35.052" x2="-33.782" y2="-36.068" width="0.508" layer="94"/>
-<wire x1="-33.782" y1="-36.068" x2="32.258" y2="-36.068" width="0.508" layer="94"/>
-<wire x1="32.258" y1="35.052" x2="32.258" y2="-36.068" width="0.508" layer="94"/>
-<pin name="IN1P" x="-38.862" y="27.432" length="middle" direction="in"/>
-<pin name="IN1N" x="-38.862" y="24.892" length="middle" direction="in"/>
-<pin name="IN2P" x="-38.862" y="22.352" length="middle" direction="in"/>
-<pin name="IN2N" x="-38.862" y="19.812" length="middle" direction="in"/>
-<pin name="IN3P" x="-38.862" y="17.272" length="middle" direction="in"/>
-<pin name="IN3N" x="-38.862" y="14.732" length="middle" direction="in"/>
-<pin name="IN4P" x="-38.862" y="12.192" length="middle" direction="in"/>
-<pin name="IN4N" x="-38.862" y="9.652" length="middle" direction="in"/>
-<pin name="IN5P" x="-38.862" y="7.112" length="middle" direction="in"/>
-<pin name="IN5N" x="-38.862" y="4.572" length="middle" direction="in"/>
-<pin name="IN6P" x="-38.862" y="2.032" length="middle" direction="in"/>
-<pin name="IN6N" x="-38.862" y="-0.508" length="middle" direction="in"/>
-<pin name="IN7P" x="-38.862" y="-3.048" length="middle" direction="in"/>
-<pin name="IN7N" x="-38.862" y="-5.588" length="middle" direction="in"/>
-<pin name="IN8P" x="-38.862" y="-8.128" length="middle" direction="in"/>
-<pin name="IN8N" x="-38.862" y="-10.668" length="middle" direction="in"/>
-<pin name="RESP_MODP" x="-38.862" y="32.512" length="middle" direction="out"/>
-<pin name="RESP_MODN" x="-38.862" y="29.972" length="middle" direction="out"/>
-<pin name="RLD_INV" x="-10.922" y="-41.148" length="middle" rot="R90"/>
-<pin name="RLD_OUT" x="-13.462" y="-41.148" length="middle" direction="out" rot="R90"/>
-<pin name="RLD_REF" x="-16.002" y="-41.148" length="middle" direction="in" rot="R90"/>
-<pin name="RLD_IN" x="-18.542" y="-41.148" length="middle" direction="in" rot="R90"/>
-<pin name="PACE_OUT2" x="14.478" y="-41.148" length="middle" direction="out" rot="R90"/>
-<pin name="PACE_OUT1" x="17.018" y="-41.148" length="middle" direction="out" rot="R90"/>
-<pin name="VREFP" x="6.858" y="40.132" length="middle" rot="R270"/>
-<pin name="VREFN" x="11.938" y="40.132" length="middle" rot="R270"/>
-<pin name="WCT" x="-38.862" y="-15.748" length="middle" direction="out"/>
-<pin name="AVSS_3" x="-38.862" y="-25.908" length="middle" direction="pwr"/>
-<pin name="AVSS1" x="-38.862" y="-33.528" length="middle" direction="pwr"/>
-<pin name="DGND_2" x="37.338" y="-28.448" length="middle" direction="pwr" rot="R180"/>
-<pin name="START" x="37.338" y="-18.288" length="middle" direction="in" rot="R180"/>
-<pin name="!RESET" x="37.338" y="-15.748" length="middle" direction="in" rot="R180"/>
-<pin name="!PWDN" x="37.338" y="-13.208" length="middle" direction="in" rot="R180"/>
-<pin name="GPIO2" x="37.338" y="-2.54" length="middle" rot="R180"/>
-<pin name="GPIO3" x="37.338" y="-5.08" length="middle" rot="R180"/>
-<pin name="GPIO4" x="37.338" y="-7.62" length="middle" rot="R180"/>
-<pin name="GPIO1" x="37.338" y="0" length="middle" rot="R180"/>
-<pin name="CLK" x="37.338" y="5.08" length="middle" direction="in" rot="R180"/>
-<pin name="CLKSEL" x="37.338" y="7.62" length="middle" direction="in" rot="R180"/>
-<pin name="DOUT" x="37.338" y="12.192" length="middle" direction="out" rot="R180"/>
-<pin name="DIN" x="37.338" y="14.732" length="middle" direction="in" rot="R180"/>
-<pin name="SCLK" x="37.338" y="17.272" length="middle" direction="in" rot="R180"/>
-<pin name="!CS" x="37.338" y="19.812" length="middle" direction="in" rot="R180"/>
-<pin name="!DRDY" x="37.338" y="24.892" length="middle" direction="out" rot="R180"/>
-<pin name="DVDD_1" x="37.338" y="32.512" length="middle" direction="pwr" rot="R180"/>
-<pin name="AVDD_1" x="-13.462" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD1" x="-0.762" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="RESV1" x="37.338" y="-23.368" length="middle" direction="in" rot="R180"/>
-<pin name="AVSS_4" x="-38.862" y="-28.448" length="middle" direction="pwr"/>
-<pin name="VCAP1" x="-0.762" y="-41.148" length="middle" rot="R90"/>
-<pin name="VCAP2" x="1.778" y="-41.148" length="middle" rot="R90"/>
-<pin name="VCAP3" x="4.318" y="-41.148" length="middle" rot="R90"/>
-<pin name="VCAP4" x="6.858" y="-41.148" length="middle" rot="R90"/>
-<pin name="DAISY_IN" x="37.338" y="-20.828" length="middle" direction="in" rot="R180"/>
-<pin name="AVDD_2" x="-10.922" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD_3" x="-8.382" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD_4" x="-5.842" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVDD_5" x="-3.302" y="40.132" length="middle" direction="pwr" rot="R270"/>
-<pin name="AVSS_5" x="-38.862" y="-30.988" length="middle" direction="pwr"/>
-<pin name="AVSS_2" x="-38.862" y="-23.368" length="middle" direction="pwr"/>
-<pin name="AVSS_1" x="-38.862" y="-20.828" length="middle" direction="pwr"/>
-<pin name="DGND_1" x="37.338" y="-25.908" length="middle" direction="pwr" rot="R180"/>
-<pin name="DVDD_2" x="37.338" y="29.972" length="middle" direction="pwr" rot="R180"/>
-<pin name="DGND_3" x="37.338" y="-30.988" length="middle" direction="pwr" rot="R180"/>
-<text x="-7.62" y="-5.08" size="1.778" layer="94">ADS1298</text>
+<wire x1="-31.242" y1="32.512" x2="34.798" y2="32.512" width="0.508" layer="94"/>
+<wire x1="-31.242" y1="32.512" x2="-31.242" y2="-38.608" width="0.508" layer="94"/>
+<wire x1="-31.242" y1="-38.608" x2="34.798" y2="-38.608" width="0.508" layer="94"/>
+<wire x1="34.798" y1="32.512" x2="34.798" y2="-38.608" width="0.508" layer="94"/>
+<pin name="IN1P" x="-36.322" y="24.892" length="middle" direction="in"/>
+<pin name="IN1N" x="-36.322" y="22.352" length="middle" direction="in"/>
+<pin name="IN2P" x="-36.322" y="19.812" length="middle" direction="in"/>
+<pin name="IN2N" x="-36.322" y="17.272" length="middle" direction="in"/>
+<pin name="IN3P" x="-36.322" y="14.732" length="middle" direction="in"/>
+<pin name="IN3N" x="-36.322" y="12.192" length="middle" direction="in"/>
+<pin name="IN4P" x="-36.322" y="9.652" length="middle" direction="in"/>
+<pin name="IN4N" x="-36.322" y="7.112" length="middle" direction="in"/>
+<pin name="IN5P" x="-36.322" y="4.572" length="middle" direction="in"/>
+<pin name="IN5N" x="-36.322" y="2.032" length="middle" direction="in"/>
+<pin name="IN6P" x="-36.322" y="-0.508" length="middle" direction="in"/>
+<pin name="IN6N" x="-36.322" y="-3.048" length="middle" direction="in"/>
+<pin name="IN7P" x="-36.322" y="-5.588" length="middle" direction="in"/>
+<pin name="IN7N" x="-36.322" y="-8.128" length="middle" direction="in"/>
+<pin name="IN8P" x="-36.322" y="-10.668" length="middle" direction="in"/>
+<pin name="IN8N" x="-36.322" y="-13.208" length="middle" direction="in"/>
+<pin name="RESP_MODP" x="-36.322" y="29.972" length="middle" direction="out"/>
+<pin name="RESP_MODN" x="-36.322" y="27.432" length="middle" direction="out"/>
+<pin name="RLD_INV" x="-8.382" y="-43.688" length="middle" rot="R90"/>
+<pin name="RLD_OUT" x="-10.922" y="-43.688" length="middle" direction="out" rot="R90"/>
+<pin name="RLD_REF" x="-13.462" y="-43.688" length="middle" direction="in" rot="R90"/>
+<pin name="RLD_IN" x="-16.002" y="-43.688" length="middle" direction="in" rot="R90"/>
+<pin name="PACE_OUT2" x="17.018" y="-43.688" length="middle" direction="out" rot="R90"/>
+<pin name="PACE_OUT1" x="19.558" y="-43.688" length="middle" direction="out" rot="R90"/>
+<pin name="VREFP" x="9.398" y="37.592" length="middle" rot="R270"/>
+<pin name="VREFN" x="14.478" y="37.592" length="middle" rot="R270"/>
+<pin name="WCT" x="-36.322" y="-18.288" length="middle" direction="out"/>
+<pin name="AVSS_3" x="-36.322" y="-28.448" length="middle" direction="pwr"/>
+<pin name="AVSS1" x="-36.322" y="-36.068" length="middle" direction="pwr"/>
+<pin name="DGND_2" x="39.878" y="-30.988" length="middle" direction="pwr" rot="R180"/>
+<pin name="START" x="39.878" y="-20.828" length="middle" direction="in" rot="R180"/>
+<pin name="!RESET" x="39.878" y="-18.288" length="middle" direction="in" rot="R180"/>
+<pin name="!PWDN" x="39.878" y="-15.748" length="middle" direction="in" rot="R180"/>
+<pin name="GPIO2" x="39.878" y="-5.08" length="middle" rot="R180"/>
+<pin name="GPIO3" x="39.878" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO4" x="39.878" y="-10.16" length="middle" rot="R180"/>
+<pin name="GPIO1" x="39.878" y="-2.54" length="middle" rot="R180"/>
+<pin name="CLK" x="39.878" y="2.54" length="middle" direction="in" rot="R180"/>
+<pin name="CLKSEL" x="39.878" y="5.08" length="middle" direction="in" rot="R180"/>
+<pin name="DOUT" x="39.878" y="9.652" length="middle" direction="out" rot="R180"/>
+<pin name="DIN" x="39.878" y="12.192" length="middle" direction="in" rot="R180"/>
+<pin name="SCLK" x="39.878" y="14.732" length="middle" direction="in" rot="R180"/>
+<pin name="!CS" x="39.878" y="17.272" length="middle" direction="in" rot="R180"/>
+<pin name="!DRDY" x="39.878" y="22.352" length="middle" direction="out" rot="R180"/>
+<pin name="DVDD_1" x="39.878" y="29.972" length="middle" direction="pwr" rot="R180"/>
+<pin name="AVDD_1" x="-10.922" y="37.592" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD1" x="1.778" y="37.592" length="middle" direction="pwr" rot="R270"/>
+<pin name="RESV1" x="39.878" y="-25.908" length="middle" direction="in" rot="R180"/>
+<pin name="AVSS_4" x="-36.322" y="-30.988" length="middle" direction="pwr"/>
+<pin name="VCAP1" x="1.778" y="-43.688" length="middle" rot="R90"/>
+<pin name="VCAP2" x="4.318" y="-43.688" length="middle" rot="R90"/>
+<pin name="VCAP3" x="6.858" y="-43.688" length="middle" rot="R90"/>
+<pin name="VCAP4" x="9.398" y="-43.688" length="middle" rot="R90"/>
+<pin name="DAISY_IN" x="39.878" y="-23.368" length="middle" direction="in" rot="R180"/>
+<pin name="AVDD_2" x="-8.382" y="37.592" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD_3" x="-5.842" y="37.592" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD_4" x="-3.302" y="37.592" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVDD_5" x="-0.762" y="37.592" length="middle" direction="pwr" rot="R270"/>
+<pin name="AVSS_5" x="-36.322" y="-33.528" length="middle" direction="pwr"/>
+<pin name="AVSS_2" x="-36.322" y="-25.908" length="middle" direction="pwr"/>
+<pin name="AVSS_1" x="-36.322" y="-23.368" length="middle" direction="pwr"/>
+<pin name="DGND_1" x="39.878" y="-28.448" length="middle" direction="pwr" rot="R180"/>
+<pin name="DVDD_2" x="39.878" y="27.432" length="middle" direction="pwr" rot="R180"/>
+<pin name="DGND_3" x="39.878" y="-33.528" length="middle" direction="pwr" rot="R180"/>
+<text x="-5.08" y="-7.62" size="1.778" layer="94">ADS1298</text>
 </symbol>
 <symbol name="ADS1299">
 <wire x1="-36.322" y1="40.132" x2="29.718" y2="40.132" width="0.508" layer="94"/>

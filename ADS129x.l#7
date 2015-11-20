@@ -298,6 +298,7 @@
 <pin name="DGND_1" x="37.338" y="-25.908" length="middle" direction="pwr" rot="R180"/>
 <pin name="DVDD_2" x="37.338" y="29.972" length="middle" direction="pwr" rot="R180"/>
 <pin name="DGND_3" x="37.338" y="-30.988" length="middle" direction="pwr" rot="R180"/>
+<text x="-7.62" y="-5.08" size="1.778" layer="94">ADS1298</text>
 </symbol>
 <symbol name="ADS1299">
 <wire x1="-36.322" y1="40.132" x2="29.718" y2="40.132" width="0.508" layer="94"/>
