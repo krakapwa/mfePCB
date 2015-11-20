@@ -15231,6 +15231,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R28" library="resistor" deviceset="R-EU_" device="M1406" value="100k"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY38" library="supply2" deviceset="AGND" device=""/>
+<part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17075,6 +17076,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="R28" gate="G$1" x="20.32" y="58.42" rot="R90"/>
 <instance part="+3V10" gate="G$1" x="20.32" y="66.04"/>
 <instance part="SUPPLY38" gate="G$1" x="-7.62" y="43.18"/>
+<instance part="+3V11" gate="G$1" x="30.48" y="45.72"/>
 </instances>
 <busses>
 </busses>
@@ -17127,6 +17129,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="R28" gate="G$1" pin="2"/>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+<pinref part="U$3" gate="G$1" pin="VBAT"/>
+<wire x1="30.48" y1="43.18" x2="38.1" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AGND" class="0">

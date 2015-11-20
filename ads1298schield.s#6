@@ -17998,6 +17998,7 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="SUPPLY24" library="supply2" deviceset="AGND" device=""/>
 <part name="C61" library="rcl" deviceset="C-EU" device="C1210" value="4.7uF"/>
 <part name="SUPPLY35" library="supply2" deviceset="AGND" device=""/>
+<part name="SUPPLY36" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19948,6 +19949,7 @@ Frank Zhao
 <instance part="SUPPLY24" gate="G$1" x="91.44" y="68.58"/>
 <instance part="C61" gate="G$1" x="33.02" y="20.32"/>
 <instance part="SUPPLY35" gate="G$1" x="33.02" y="12.7"/>
+<instance part="SUPPLY36" gate="G$1" x="38.1" y="35.56"/>
 </instances>
 <busses>
 </busses>
@@ -20735,6 +20737,10 @@ Frank Zhao
 <segment>
 <pinref part="C61" gate="G$1" pin="2"/>
 <pinref part="SUPPLY35" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VSSA"/>
+<pinref part="SUPPLY36" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$92" class="0">

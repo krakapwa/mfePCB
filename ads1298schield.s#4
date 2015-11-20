@@ -18001,6 +18001,10 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="SUPPLY36" library="supply2" deviceset="AGND" device=""/>
 <part name="C64" library="rcl" deviceset="C-EU" device="C1210" value="100nF"/>
 <part name="SUPPLY37" library="supply2" deviceset="AGND" device=""/>
+<part name="SW3" library="stm32f4stamp" deviceset="SWITCH-B3U-1110" device="-BOSS" value="!RST"/>
+<part name="R28" library="resistor" deviceset="R-EU_" device="M1406" value="100k"/>
+<part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY38" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19954,6 +19958,10 @@ Frank Zhao
 <instance part="SUPPLY36" gate="G$1" x="38.1" y="35.56"/>
 <instance part="C64" gate="G$1" x="-2.54" y="38.1"/>
 <instance part="SUPPLY37" gate="G$1" x="-2.54" y="30.48"/>
+<instance part="SW3" gate="." x="12.7" y="45.72" rot="MR0"/>
+<instance part="R28" gate="G$1" x="20.32" y="58.42" rot="R90"/>
+<instance part="+3V10" gate="G$1" x="20.32" y="66.04"/>
+<instance part="SUPPLY38" gate="G$1" x="-7.62" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -20714,6 +20722,10 @@ Frank Zhao
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 <wire x1="134.62" y1="68.58" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R28" gate="G$1" pin="2"/>
+<pinref part="+3V10" gate="G$1" pin="+3V3"/>
+</segment>
 </net>
 <net name="AGND" class="0">
 <segment>
@@ -20749,6 +20761,11 @@ Frank Zhao
 <segment>
 <pinref part="C64" gate="G$1" pin="2"/>
 <pinref part="SUPPLY37" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="SUPPLY38" gate="G$1" pin="AGND"/>
+<pinref part="SW3" gate="." pin="2"/>
+<wire x1="-7.62" y1="45.72" x2="7.62" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$92" class="0">
@@ -20818,6 +20835,14 @@ Frank Zhao
 <pinref part="C64" gate="G$1" pin="1"/>
 <pinref part="U$3" gate="G$1" pin="VDDA"/>
 <wire x1="-2.54" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$100" class="0">
+<segment>
+<pinref part="R28" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="SW3" gate="." pin="1"/>
+<wire x1="20.32" y1="45.72" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

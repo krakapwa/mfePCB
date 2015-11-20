@@ -17999,6 +17999,8 @@ Standard SMD solder jumper. Used to automate production. Two varients : Normally
 <part name="C61" library="rcl" deviceset="C-EU" device="C1210" value="4.7uF"/>
 <part name="SUPPLY35" library="supply2" deviceset="AGND" device=""/>
 <part name="SUPPLY36" library="supply2" deviceset="AGND" device=""/>
+<part name="C64" library="rcl" deviceset="C-EU" device="C1210" value="100nF"/>
+<part name="SUPPLY37" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19950,6 +19952,8 @@ Frank Zhao
 <instance part="C61" gate="G$1" x="33.02" y="20.32"/>
 <instance part="SUPPLY35" gate="G$1" x="33.02" y="12.7"/>
 <instance part="SUPPLY36" gate="G$1" x="38.1" y="35.56"/>
+<instance part="C64" gate="G$1" x="-2.54" y="38.1"/>
+<instance part="SUPPLY37" gate="G$1" x="-2.54" y="30.48"/>
 </instances>
 <busses>
 </busses>
@@ -20742,6 +20746,10 @@ Frank Zhao
 <pinref part="U$3" gate="G$1" pin="VSSA"/>
 <pinref part="SUPPLY36" gate="G$1" pin="AGND"/>
 </segment>
+<segment>
+<pinref part="C64" gate="G$1" pin="2"/>
+<pinref part="SUPPLY37" gate="G$1" pin="AGND"/>
+</segment>
 </net>
 <net name="N$92" class="0">
 <segment>
@@ -20803,6 +20811,13 @@ Frank Zhao
 <pinref part="U$3" gate="G$1" pin="VCAP1"/>
 <pinref part="C61" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="22.86" x2="38.1" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$99" class="0">
+<segment>
+<pinref part="C64" gate="G$1" pin="1"/>
+<pinref part="U$3" gate="G$1" pin="VDDA"/>
+<wire x1="-2.54" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
