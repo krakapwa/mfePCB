@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9319,7 +9319,7 @@ XBee-like radio module.</description>
 <wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<pin name="GND" x="0" y="-12.7" visible="pin" length="short" direction="pas" rot="R90"/>
+<pin name="GND" x="0" y="-12.7" visible="pin" length="short" direction="pwr" rot="R90"/>
 <pin name="VOUT" x="12.7" y="5.08" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="VIN" x="-12.7" y="5.08" visible="pin" length="short" direction="in"/>
 <pin name="EN" x="-12.7" y="-5.08" visible="pin" length="short" direction="in"/>
