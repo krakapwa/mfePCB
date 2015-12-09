@@ -18157,6 +18157,9 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <part name="J2" library="con-molex" deviceset="22-23-2091" device=""/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY53" library="supply2" deviceset="AGND" device=""/>
+<part name="J3" library="con-molex" deviceset="22-23-2091" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY54" library="supply2" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19099,6 +19102,7 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <text x="227.838" y="124.714" size="2.54" layer="91">Boost converter for 4630A accelerometer</text>
 <text x="359.918" y="84.074" size="2.54" layer="91">4630A connector</text>
 <text x="265.938" y="40.894" size="2.54" layer="91">6DOF module #1</text>
+<text x="210.058" y="40.894" size="2.54" layer="91">6DOF module #2</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -19369,6 +19373,19 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <instance part="SUPPLY53" gate="G$1" x="243.84" y="17.78" smashed="yes">
 <attribute name="VALUE" x="244.475" y="8.509" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="J3" gate="-1" x="218.44" y="33.02"/>
+<instance part="J3" gate="-2" x="218.44" y="30.48"/>
+<instance part="J3" gate="-3" x="218.44" y="27.94"/>
+<instance part="J3" gate="-4" x="218.44" y="25.4"/>
+<instance part="J3" gate="-5" x="218.44" y="22.86"/>
+<instance part="J3" gate="-6" x="218.44" y="20.32"/>
+<instance part="J3" gate="-7" x="218.44" y="17.78"/>
+<instance part="J3" gate="-8" x="218.44" y="15.24"/>
+<instance part="J3" gate="-9" x="218.44" y="12.7"/>
+<instance part="+3V14" gate="G$1" x="210.82" y="38.1"/>
+<instance part="SUPPLY54" gate="G$1" x="187.96" y="17.78" smashed="yes">
+<attribute name="VALUE" x="188.595" y="8.509" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -19560,6 +19577,12 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <wire x1="271.78" y1="22.86" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="22.86" x2="243.84" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="SUPPLY53" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="J3" gate="-5" pin="S"/>
+<wire x1="215.9" y1="22.86" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="22.86" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="SUPPLY54" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="IN1P" class="0">
@@ -20097,6 +20120,10 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <wire x1="266.7" y1="35.56" x2="266.7" y2="33.02" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<wire x1="210.82" y1="35.56" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$30" class="0">
 <segment>
@@ -20181,6 +20208,11 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <wire x1="271.78" y1="30.48" x2="256.54" y2="30.48" width="0.1524" layer="91"/>
 <label x="256.54" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="AIN3"/>
+<wire x1="261.62" y1="226.06" x2="248.92" y2="226.06" width="0.1524" layer="91"/>
+<label x="248.92" y="226.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ACCY1" class="0">
 <segment>
@@ -20188,12 +20220,33 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <wire x1="271.78" y1="27.94" x2="256.54" y2="27.94" width="0.1524" layer="91"/>
 <label x="256.54" y="27.94" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="AIN4"/>
+<wire x1="276.86" y1="236.22" x2="276.86" y2="246.38" width="0.1524" layer="91"/>
+<label x="276.86" y="238.76" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="287.02" y1="236.22" x2="287.02" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="292.1" y1="236.22" x2="292.1" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="297.18" y1="236.22" x2="297.18" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="302.26" y1="236.22" x2="302.26" y2="246.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="ACCZ1" class="0">
 <segment>
 <pinref part="J2" gate="-4" pin="S"/>
 <wire x1="271.78" y1="25.4" x2="256.54" y2="25.4" width="0.1524" layer="91"/>
 <label x="256.54" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="281.94" y1="236.22" x2="281.94" y2="246.38" width="0.1524" layer="91"/>
+<label x="281.94" y="238.76" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ROTZ1" class="0">
@@ -20215,6 +20268,90 @@ SIMPLE SWITCHER ® 24Vout, 2.1A Step-Up Voltage Regulator in SOT-23</description
 <pinref part="J2" gate="-8" pin="S"/>
 <wire x1="271.78" y1="15.24" x2="256.54" y2="15.24" width="0.1524" layer="91"/>
 <label x="256.54" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="J3" gate="-1" pin="S"/>
+<wire x1="215.9" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ACCX2" class="0">
+<segment>
+<pinref part="J3" gate="-2" pin="S"/>
+<wire x1="215.9" y1="30.48" x2="200.66" y2="30.48" width="0.1524" layer="91"/>
+<label x="200.66" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACCY2" class="0">
+<segment>
+<pinref part="J3" gate="-3" pin="S"/>
+<wire x1="215.9" y1="27.94" x2="200.66" y2="27.94" width="0.1524" layer="91"/>
+<label x="200.66" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ACCZ2" class="0">
+<segment>
+<pinref part="J3" gate="-4" pin="S"/>
+<wire x1="215.9" y1="25.4" x2="200.66" y2="25.4" width="0.1524" layer="91"/>
+<label x="200.66" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ROTZ2" class="0">
+<segment>
+<pinref part="J3" gate="-6" pin="S"/>
+<wire x1="215.9" y1="20.32" x2="200.66" y2="20.32" width="0.1524" layer="91"/>
+<label x="200.66" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ROTY2" class="0">
+<segment>
+<pinref part="J3" gate="-7" pin="S"/>
+<wire x1="215.9" y1="17.78" x2="200.66" y2="17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ROTX2" class="0">
+<segment>
+<pinref part="J3" gate="-8" pin="S"/>
+<wire x1="215.9" y1="15.24" x2="200.66" y2="15.24" width="0.1524" layer="91"/>
+<label x="200.66" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="ADCINP"/>
+<wire x1="307.34" y1="236.22" x2="307.34" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="ADCINN"/>
+<wire x1="312.42" y1="236.22" x2="312.42" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="AIN8"/>
+<wire x1="317.5" y1="236.22" x2="317.5" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="AIN9"/>
+<wire x1="322.58" y1="236.22" x2="322.58" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="AIN10"/>
+<wire x1="327.66" y1="236.22" x2="327.66" y2="246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="AIN11"/>
+<wire x1="332.74" y1="236.22" x2="332.74" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

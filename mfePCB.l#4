@@ -560,6 +560,18 @@ www.ti.com .. slma002.pdf</description>
 <pin name="AIN9" x="10.16" y="25.4" length="middle" rot="R270"/>
 <pin name="AIN10" x="15.24" y="25.4" length="middle" rot="R270"/>
 <pin name="AIN11" x="20.32" y="25.4" length="middle" rot="R270"/>
+<pin name="CLKIO" x="-33.02" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO0" x="-27.94" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO1" x="-22.86" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO2" x="-17.78" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO3" x="-12.7" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO4" x="-7.62" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO5" x="-2.54" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO6" x="2.54" y="-50.8" length="middle" rot="R90"/>
+<pin name="GPIO7" x="7.62" y="-50.8" length="middle" rot="R90"/>
+<pin name="SCLK" x="12.7" y="-50.8" length="middle" rot="R90"/>
+<pin name="DIN" x="17.78" y="-50.8" length="middle" rot="R90"/>
+<pin name="DOUT" x="22.86" y="-50.8" length="middle" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>

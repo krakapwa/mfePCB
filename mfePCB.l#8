@@ -712,8 +712,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1274.pdf</description>
 <deviceset name="ADS1258" prefix="IC">
 <description>16-Channel, 24-Bit Analog-to-Digital Converter</description>
 <gates>
-<gate name="G$1" symbol="ADS1274" x="0" y="0"/>
-<gate name="P" symbol="EXP25" x="78.74" y="-25.4" addlevel="request"/>
 </gates>
 <devices>
 <device name="" package="HTQFP-64-PAP">

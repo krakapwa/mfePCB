@@ -62,7 +62,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -520,10 +520,46 @@ www.ti.com .. slma002.pdf</description>
 <pin name="EXP@25" x="30.48" y="-7.62" visible="pin" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="ADS1258">
-<wire x1="-45.72" y1="20.32" x2="-45.72" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="-45.72" y1="-25.4" x2="7.62" y2="-25.4" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-25.4" x2="7.62" y2="20.32" width="0.254" layer="94"/>
-<wire x1="7.62" y1="20.32" x2="-45.72" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="20.32" x2="-45.72" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="-45.72" x2="35.56" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-45.72" x2="35.56" y2="20.32" width="0.254" layer="94"/>
+<wire x1="35.56" y1="20.32" x2="-45.72" y2="20.32" width="0.254" layer="94"/>
+<pin name="AIN3" x="-50.8" y="15.24" length="middle"/>
+<pin name="AIN2" x="-50.8" y="10.16" length="middle"/>
+<pin name="AIN1" x="-50.8" y="5.08" length="middle"/>
+<pin name="AIN0" x="-50.8" y="0" length="middle"/>
+<pin name="AVSS" x="-50.8" y="-5.08" length="middle"/>
+<pin name="AVDD" x="-50.8" y="-10.16" length="middle"/>
+<pin name="PLLCAP" x="-50.8" y="-15.24" length="middle"/>
+<pin name="XTAL1" x="-50.8" y="-20.32" length="middle"/>
+<pin name="XTAL2" x="-50.8" y="-25.4" length="middle"/>
+<pin name="!PWDN" x="-50.8" y="-30.48" length="middle"/>
+<pin name="!RESET" x="-50.8" y="-35.56" length="middle"/>
+<pin name="CLKSEL" x="-50.8" y="-40.64" length="middle"/>
+<pin name="AIN12" x="40.64" y="15.24" length="middle" rot="R180"/>
+<pin name="AIN13" x="40.64" y="10.16" length="middle" rot="R180"/>
+<pin name="AIN14" x="40.64" y="5.08" length="middle" rot="R180"/>
+<pin name="AIN15" x="40.64" y="0" length="middle" rot="R180"/>
+<pin name="AINCOM" x="40.64" y="-5.08" length="middle" rot="R180"/>
+<pin name="VREFP" x="40.64" y="-10.16" length="middle" rot="R180"/>
+<pin name="VREFN" x="40.64" y="-15.24" length="middle" rot="R180"/>
+<pin name="DGND" x="40.64" y="-20.32" length="middle" rot="R180"/>
+<pin name="DVDD" x="40.64" y="-25.4" length="middle" rot="R180"/>
+<pin name="!CS" x="40.64" y="-30.48" length="middle" rot="R180"/>
+<pin name="START" x="40.64" y="-35.56" length="middle" rot="R180"/>
+<pin name="!DRDY" x="40.64" y="-40.64" length="middle" rot="R180"/>
+<pin name="AIN4" x="-35.56" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN5" x="-30.48" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN6" x="-25.4" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN7" x="-20.32" y="25.4" length="middle" rot="R270"/>
+<pin name="MUXOUTP" x="-15.24" y="25.4" length="middle" rot="R270"/>
+<pin name="MUXOUTN" x="-10.16" y="25.4" length="middle" rot="R270"/>
+<pin name="ADCINP" x="-5.08" y="25.4" length="middle" rot="R270"/>
+<pin name="ADCINN" x="0" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN8" x="5.08" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN9" x="10.16" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN10" x="15.24" y="25.4" length="middle" rot="R270"/>
+<pin name="AIN11" x="20.32" y="25.4" length="middle" rot="R270"/>
 </symbol>
 </symbols>
 <devicesets>
